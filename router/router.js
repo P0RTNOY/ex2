@@ -1,6 +1,14 @@
+//router/router.js
 const express = require("express");
 const controller = require("../controller/controller");
+const logger = require('../logger/logger');
 const router = express.Router();
+
+// Middleware to log incoming requests
+router.use((req, res, next) => {
+    logger.info(`Router received ${req.method} request for ${req.url}`);
+    next();
+});
 
 // Get all crises
 router.get('/crises', controller.getAllCrises);
@@ -18,3 +26,4 @@ router.put('/crises/:id', controller.updateCrisis);
 router.delete('/crises/:id', controller.deleteCrisis);
 
 module.exports = router;
+

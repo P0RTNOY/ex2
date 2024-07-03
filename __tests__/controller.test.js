@@ -1,4 +1,4 @@
-// controller.test.js
+// __tests__/controller.test.js
 
 // Importing required modules and functions
 const { getAllCrises, addNewCrisis, updateCrisis, deleteCrisis } = require('../controller/controller');
@@ -31,7 +31,7 @@ describe('addNewCrisis', () => {
   test('It should add a new crisis', async () => {
     // Mock data
     const newCrisis = { name: 'New Crisis' };
-    const mockAddedCrisis = { _id: '3', name: 'New Crisis' }; // Mock the added crisis
+    const mockAddedCrisis = { _id: '1', name: 'New Crisis' }; // Mock the added crisis
     // Mocking the repository function to resolve with mockAddedCrisis
     repository.addNewCrisis.mockResolvedValue(mockAddedCrisis);
     // Mock request and response objects

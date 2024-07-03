@@ -1,4 +1,6 @@
+//controller/controller.js
 const repository = require("../repository/repository");
+const logger = require('../logger/logger');
 
 const getAllCrises = async (req, res) => {
     try {
@@ -7,7 +9,7 @@ const getAllCrises = async (req, res) => {
             throw { status: 404, message: "No crises found" };
         res.json(allCrises);
     } catch (error) {
-        console.error(error.message);
+        logger.error(error.message);
         res.status(error?.status || 500).json(error);
     }
 };
@@ -20,7 +22,7 @@ const getCrisisById = async (req, res) => {
             throw { status: 404, message: "Crisis not found" };
         res.json(crisis);
     } catch (error) {
-        console.error(error.message);
+        logger.error(error.message);
         res.status(error?.status || 500).json(error);
     }
 };
@@ -31,7 +33,7 @@ const addNewCrisis = async (req, res) => {
         const addedCrisis = await repository.addNewCrisis(newCrisis);
         res.json(addedCrisis);
     } catch (error) {
-        console.error(error.message);
+        logger.error(error.message);
         res.status(error?.status || 500).json(error);
     }
 };
@@ -45,7 +47,7 @@ const updateCrisis = async (req, res) => {
             throw { status: 404, message: "Failed to update crisis" };
         res.json(updated);
     } catch (error) {
-        console.error(error.message);
+        logger.error(error.message);
         res.status(error?.status || 500).json(error);
     }
 };
@@ -58,7 +60,7 @@ const deleteCrisis = async (req, res) => {
             throw { status: 404, message: "Failed to delete crisis" };
         res.json({ message: 'Crisis deleted successfully' });
     } catch (error) {
-        console.error(error.message);
+        logger.error(error.message);
         res.status(error?.status || 500).json(error);
     }
 };

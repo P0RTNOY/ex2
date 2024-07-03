@@ -1,4 +1,4 @@
-// repository.test.js
+//__tests__/repository.test.js
 
 // Importing required modules and functions
 const repository = require('../repository/repository');
