@@ -1,0 +1,72 @@
+2024-07-03 14:43:07 - info: Fetched all crises
+2024-07-03 14:43:07 - info: Added new crisis
+2024-07-03 14:43:07 - info: Updated crisis with ID: 1
+2024-07-03 14:43:07 - info: Deleted crisis with ID: 1
+2024-07-03 14:45:35 - info: Fetched all crises
+2024-07-03 14:45:35 - info: Added new crisis
+2024-07-03 14:45:35 - info: Updated crisis with ID: 1
+2024-07-03 14:45:35 - info: Deleted crisis with ID: 1
+2024-07-03 14:48:36 - info: Server is running on port 8080
+2024-07-03 14:48:37 - info: Connected to MongoDB
+2024-07-03 14:48:37 - info: Connected to the database
+2024-07-03 14:48:47 - info: Router received POST request for /new
+2024-07-03 14:49:03 - info: Router received POST request for /crises/new
+2024-07-03 14:49:03 - info: Added new crisis
+2024-07-03 14:49:18 - info: Router received GET request for /crises
+2024-07-03 14:49:18 - info: Fetched all crises
+2024-07-03 14:49:51 - info: Fetched all crises
+2024-07-03 14:49:51 - info: Added new crisis
+2024-07-03 14:49:51 - info: Updated crisis with ID: 1
+2024-07-03 14:49:51 - info: Deleted crisis with ID: 1
+2024-07-03 15:13:43 - info: Fetched all crises
+2024-07-03 15:13:43 - info: Added new crisis
+2024-07-03 15:13:43 - info: Updated crisis with ID: 1
+2024-07-03 15:13:43 - info: Deleted crisis with ID: 1
+2024-07-06 11:59:37 - info: Server is running on port 8080
+2024-07-06 11:59:38 - info: Connected to MongoDB
+2024-07-06 11:59:38 - info: Connected to the database
+2024-07-06 11:59:48 - info: Fetched all crises
+2024-07-06 11:59:48 - info: Added new crisis
+2024-07-06 11:59:48 - info: Updated crisis with ID: 1
+2024-07-06 11:59:48 - info: Deleted crisis with ID: 1
+2024-07-06 12:00:10 - info: Server is running on port 8080
+2024-07-06 12:00:11 - info: Connected to MongoDB
+2024-07-06 12:00:11 - info: Connected to the database
+2024-07-06 12:01:02 - info: Router received GET request for /crises
+2024-07-06 12:01:02 - info: Fetched all crises
+2024-07-06 12:03:21 - info: Router received DELETE request for /crises/668900faaeaa9385083cb28a
+2024-07-06 12:03:21 - info: Deleted crisis with ID: 668900faaeaa9385083cb28a
+2024-07-06 12:05:14 - info: Router received POST request for /crises/nw
+2024-07-06 12:05:23 - info: Router received POST request for /crises/new
+2024-07-06 12:05:23 - info: Added new crisis
+2024-07-06 12:06:09 - info: Router received GET request for /crises/
+2024-07-06 12:06:09 - info: Fetched all crises
+2024-07-06 12:06:13 - info: Router received GET request for /crises/
+2024-07-06 12:06:14 - info: Fetched all crises
+2024-07-06 12:09:11 - info: Router received PUT request for /crises/668908d32c8cd26be71a8ce9
+2024-07-06 12:09:11 - error: Error updating crisis with ID 668908d32c8cd26be71a8ce9: Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id'
+2024-07-06 12:09:11 - error: Failed to update crisis
+2024-07-06 12:09:14 - info: Router received PUT request for /crises/668908d32c8cd26be71a8ce9
+2024-07-06 12:09:14 - error: Error updating crisis with ID 668908d32c8cd26be71a8ce9: Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id'
+2024-07-06 12:09:14 - error: Failed to update crisis
+2024-07-06 12:09:28 - info: Router received PUT request for /crises/668908d32c8cd26be71a8ce9
+2024-07-06 12:09:28 - error: Error updating crisis with ID 668908d32c8cd26be71a8ce9: Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id'
+2024-07-06 12:09:28 - error: Failed to update crisis
+2024-07-06 12:09:45 - info: Router received GET request for /crises/
+2024-07-06 12:09:45 - info: Fetched all crises
+2024-07-06 12:10:12 - info: Router received PUT request for /crises/668908d32c8cd26be71a8ce9
+2024-07-06 12:10:12 - info: Updated crisis with ID: 668908d32c8cd26be71a8ce9
+2024-07-06 12:10:24 - info: Router received PUT request for /crises/668908d32c8cd26be71a8ce9
+2024-07-06 12:10:24 - info: Updated crisis with ID: 668908d32c8cd26be71a8ce9
+2024-07-06 12:12:46 - info: Router received POST request for /crises/
+2024-07-06 12:12:55 - info: Router received POST request for /crises/new
+2024-07-06 12:12:55 - info: Added new crisis
+2024-07-06 12:13:57 - info: Router received POST request for /crises/
+2024-07-06 12:14:02 - info: Router received GET request for /crises/
+2024-07-06 12:14:02 - info: Fetched all crises
+2024-07-06 12:14:46 - info: Router received PUT request for /crises/66890a972c8cd26be71a8cf3
+2024-07-06 12:14:46 - info: Updated crisis with ID: 66890a972c8cd26be71a8cf3
+2024-07-06 12:15:13 - info: Router received PUT request for /crises/66890a972c8cd26be71a8cf3
+2024-07-06 12:15:13 - info: Updated crisis with ID: 66890a972c8cd26be71a8cf3
+2024-07-06 12:15:55 - info: Router received DELETE request for /crises/66890a972c8cd26be71a8cf3
+2024-07-06 12:15:55 - info: Deleted crisis with ID: 66890a972c8cd26be71a8cf3
